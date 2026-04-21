@@ -1,0 +1,83 @@
+﻿@page "/return"
+@using BookLab5.Models
+@using BookLab5.Services
+@inject ILibraryService LibraryService
+
+<h3>Return Book</h3>
+
+<h4>Select User</h4>
+<select @bind="selectedUserId" @bind:after="LoadBorrowedBooks">
+    <option value="0">-- Select User --</option>
+    @foreach (var user in users)
+    {
+        <option value="@user.Id">@user.Name</option>
+    }
+</select>
+
+@if (borrowedBooks.Count > 0)
+{
+    <h4>Borrowed Books</h4>
+
+    <select @bind="selectedBookId">
+        <option value="0">-- Select Book --</option>
+        @foreach (var book in borrowedBooks)
+        {
+            <option value="@book.Id">@book.Title</option>
+        }
+    </select>
+
+    <br /><br />
+    <button @onclick="ReturnBook">Return</button>
+}
+
+<p>@message</p>
+
+@code {
+
+    List<User> users = new();
+    List<Book> borrowedBooks = new();
+
+    int selectedUserId;
+    int selectedBookId;
+
+    string message = "";
+
+    protected override void OnInitialized()
+    {
+        users = LibraryService.GetUsers();
+    }
+
+    void LoadBorrowedBooks()
+    {
+        var allBorrowed = LibraryService.GetBorrowedBooks();
+
+        if (allBorrowed.ContainsKey(selectedUserId))
+        {
+            borrowedBooks = allBorrowed[selectedUserId];
+        }
+        else
+        {
+            borrowedBooks = new List<Book>();
+        }
+    }
+
+    void ReturnBook()
+    {
+        if (selectedUserId == 0 || selectedBookId == 0)
+        {
+            message = "Please select a user and a book.";
+            return;
+        }
+
+        LibraryService.ReturnBook(selectedUserId, selectedBookId);
+
+        message = "Book returned successfully!";
+
+
+
+        // Refresh borrowed list
+
+        LoadBorrowedBooks();
+        selectedBookId = 0;
+    }
+}

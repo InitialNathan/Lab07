@@ -1,0 +1,88 @@
+﻿@page "/books"
+@using BookLab5.Models
+@using BookLab5.Services
+@inject ILibraryService LibraryService
+
+<h3>Books</h3>
+
+<h4>Add Book</h4>
+
+<input placeholder="Title" @bind="newBook.Title" />
+<input placeholder="Author" @bind="newBook.Author" />
+<input placeholder="ISBN" @bind="newBook.ISBN" />
+<button @onclick="AddBook">Save</button>
+
+<hr />
+
+<h4>Book List</h4>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in books)
+        {
+            <tr>
+                <td>@book.Id</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.ISBN</td>
+                <td>
+                    <button @onclick="() => EditBook(book)">Edit</button>
+                    <button @onclick="() => DeleteBook(book.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<Book> books = new();
+    Book newBook = new();
+
+    protected override void OnInitialized()
+    {
+        books = LibraryService.GetBooks();
+    }
+
+    void AddBook()
+    {
+        if (newBook.Id == 0)
+        {
+            // ADD
+            LibraryService.AddBook(newBook);
+        }
+        else
+        {
+            // UPDATE
+            LibraryService.EditBook(newBook);
+        }
+
+        newBook = new Book();
+        books = LibraryService.GetBooks();
+    }
+
+    void DeleteBook(int id)
+    {
+        LibraryService.DeleteBook(id);
+        books = LibraryService.GetBooks();
+    }
+
+    void EditBook(Book book)
+    {
+        newBook = new Book
+        {
+            Id = book.Id,
+            Title = book.Title,
+            Author = book.Author,
+            ISBN = book.ISBN
+        };
+    }
+}

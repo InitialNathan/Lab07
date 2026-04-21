@@ -1,0 +1,74 @@
+﻿@page "/users"
+@using BookLab5.Models
+@using BookLab5.Services
+@inject ILibraryService LibraryService
+
+<h3>Users</h3>
+
+<h4>Add User</h4>
+
+<input placeholder="Name" @bind="newUser.Name" />
+<input placeholder="Email" @bind="newUser.Email" />
+<button @onclick="AddUser">Add</button>
+
+<hr />
+
+<h4>User List</h4>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in users)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>
+                    <button @onclick="() => EditUser(user)">Edit</button>
+                    <button @onclick="() => DeleteUser(user.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<User> users = new();
+    User newUser = new();
+
+    protected override void OnInitialized()
+    {
+        users = LibraryService.GetUsers();
+    }
+
+    void AddUser()
+    {
+        LibraryService.AddUser(newUser);
+        newUser = new User();
+        users = LibraryService.GetUsers();
+    }
+
+    void DeleteUser(int id)
+    {
+        LibraryService.DeleteUser(id);
+        users = LibraryService.GetUsers();
+    }
+
+    void EditUser(User user)
+    {
+        newUser = new User
+        {
+            Id = user.Id,
+            Name = user.Name,
+            Email = user.Email
+        };
+    }
+}

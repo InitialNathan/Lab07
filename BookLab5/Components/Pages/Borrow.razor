@@ -1,0 +1,65 @@
+﻿@page "/borrow"
+@using BookLab5.Models
+@using BookLab5.Services
+@inject ILibraryService LibraryService
+
+<h3>Borrow Book</h3>
+
+<h4>Select User</h4>
+<select @bind="selectedUserId">
+    <option value="0">-- Select User --</option>
+    @foreach (var user in users)
+    {
+        <option value="@user.Id">@user.Name</option>
+    }
+</select>
+
+<h4>Select Book</h4>
+<select @bind="selectedBookId">
+    <option value="0">-- Select Book --</option>
+    @foreach (var book in books)
+    {
+        <option value="@book.Id">@book.Title</option>
+    }
+</select>
+
+<br />
+<br />
+
+<button @onclick="BorrowBook">Borrow</button>
+
+<p>@message</p>
+
+@code {
+    List<User> users = new();
+    List<Book> books = new();
+
+    int selectedUserId;
+    int selectedBookId;
+
+    string message = "";
+
+    protected override void OnInitialized()
+    {
+        users = LibraryService.GetUsers();
+        books = LibraryService.GetBooks();
+    }
+
+    void BorrowBook()
+    {
+        if (selectedUserId == 0 || selectedBookId == 0)
+        {
+            message = "Please select both a user and a book.";
+            return;
+        }
+
+        LibraryService.BorrowBook(selectedUserId, selectedBookId);
+
+        message = "Book borrowed successfully!";
+
+        // Refresh book list (since one was removed)
+        books = LibraryService.GetBooks();
+
+        selectedBookId = 0;
+    }
+}
