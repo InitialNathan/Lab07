@@ -13,7 +13,7 @@ namespace BookLab5.Tests
         public void AddBook_ShouldIncreaseCount()
         {
             // Arrange ///Edit new LibraryService(False); to empty
-            var service = new LibraryService();
+            var service = new LibraryService(false);
             int initialCount = service.GetBooks().Count;
 
             var book = new Book
