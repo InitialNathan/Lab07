@@ -1,50 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\",
+  "WorkspaceRootPath": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB0AF45D-5156-4D46-8D85-E0462FBE4A63}|BookLab5.Tests\\BookLab5.Tests.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DB0AF45D-5156-4D46-8D85-E0462FBE4A63}|BookLab5.Tests\\BookLab5.Tests.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB0AF45D-5156-4D46-8D85-E0462FBE4A63}|BookLab5.Tests\\BookLab5.Tests.csproj|solutionrelative:booklab5.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\services\\ilibraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\components\\pages\\users.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\components\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\components\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\components\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\components\\pages\\return.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\components\\pages\\return.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\components\\pages\\return.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\components\\pages\\borrow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\lab07\\booklab5\\components\\pages\\borrow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\components\\pages\\borrow.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|c:\\users\\natha\\onedrive\\documents\\csci 2910\\booklab5\\booklab5\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE88AACA-F724-410D-BBDC-ACA37B0205AA}|BookLab5\\BookLab5.csproj|solutionrelative:booklab5\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Models\\Book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,11 +60,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Layout\\NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BookLab5\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Layout\\NavMenu.razor",
               "RelativeToolTip": "BookLab5\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -76,11 +74,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5.Tests\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "BookLab5.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5.Tests\\UnitTest1.cs",
               "RelativeToolTip": "BookLab5.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T14:57:15.633Z",
               "EditorCaption": ""
@@ -89,9 +87,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Services\\LibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Services\\LibraryService.cs",
               "RelativeDocumentMoniker": "BookLab5\\Services\\LibraryService.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Services\\LibraryService.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Services\\LibraryService.cs",
               "RelativeToolTip": "BookLab5\\Services\\LibraryService.cs",
               "ViewState": "AgIAAAAAAAAA9CB6NTnfvxYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,11 +97,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Users.razor",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Users.razor",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Users.razor",
               "RelativeDocumentMoniker": "BookLab5\\Components\\Pages\\Users.razor",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Users.razor",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Users.razor",
               "RelativeToolTip": "BookLab5\\Components\\Pages\\Users.razor",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -111,11 +109,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Borrow.razor",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Borrow.razor",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Borrow.razor",
               "RelativeDocumentMoniker": "BookLab5\\Components\\Pages\\Borrow.razor",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Borrow.razor",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Borrow.razor",
               "RelativeToolTip": "BookLab5\\Components\\Pages\\Borrow.razor",
               "ViewState": "AgIAABgAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -123,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Return.razor",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Return.razor",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Return.razor",
               "RelativeDocumentMoniker": "BookLab5\\Components\\Pages\\Return.razor",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Return.razor",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Return.razor",
               "RelativeToolTip": "BookLab5\\Components\\Pages\\Return.razor",
               "ViewState": "AgIAAEAAAAAAAAAAAAAAAE8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -135,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Books.razor",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Books.razor",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Books.razor",
               "RelativeDocumentMoniker": "BookLab5\\Components\\Pages\\Books.razor",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Components\\Pages\\Books.razor",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Components\\Pages\\Books.razor",
               "RelativeToolTip": "BookLab5\\Components\\Pages\\Books.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -147,11 +145,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Program.cs",
               "RelativeDocumentMoniker": "BookLab5\\Program.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Program.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Program.cs",
               "RelativeToolTip": "BookLab5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -161,9 +159,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ILibraryService.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Services\\ILibraryService.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Services\\ILibraryService.cs",
               "RelativeDocumentMoniker": "BookLab5\\Services\\ILibraryService.cs",
-              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Services\\ILibraryService.cs",
+              "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\Lab07\\BookLab5\\Services\\ILibraryService.cs",
               "RelativeToolTip": "BookLab5\\Services\\ILibraryService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAUwBQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,12 +169,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Models\\User.cs",
-              "RelativeDocumentMoniker": "BookLab5\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\BookLab5\\BookLab5\\Models\\User.cs",
               "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Models\\User.cs",
-              "RelativeToolTip": "BookLab5\\Models\\User.cs",
+              "RelativeToolTip": "..\\BookLab5\\BookLab5\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T16:00:15.589Z"
@@ -186,9 +184,9 @@
               "DocumentIndex": 10,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "BookLab5\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "..\\BookLab5\\BookLab5\\Models\\Book.cs",
               "ToolTip": "C:\\Users\\natha\\OneDrive\\Documents\\CSCI 2910\\BookLab5\\BookLab5\\Models\\Book.cs",
-              "RelativeToolTip": "BookLab5\\Models\\Book.cs",
+              "RelativeToolTip": "..\\BookLab5\\BookLab5\\Models\\Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-06T15:59:24.56Z"
